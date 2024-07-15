@@ -18,242 +18,142 @@ const imagesPrefix =
 
 export default [
   {
-    title: "Design Blocks",
-    description: "A selection of 45 page sections that fit perfectly in any combination",
+    title: "Security Installer",
+    description:
+      "An application built for windows which installs support tools, and grabs hardware info about the computer",
     items: [
       {
         image: `${imagesPrefix}/headers.jpg`,
-        name: "Page Headers",
-        count: 10,
-        route: "/sections/page-sections/page-headers",
+        name: "Check Boxes",
+        count: "Easy and simple to understand interface",
       },
       {
         image: `${imagesPrefix}/features.jpg`,
-        name: "Features",
-        count: 14,
-        route: "/sections/page-sections/features",
+        name: "Hardware Info",
+        count: "A single place to get all hardware info about a comptuer",
       },
       {
         image: `${imagesPrefix}/pricing.jpg`,
-        name: "Pricing",
-        count: 8,
-        pro: true,
+        name: "Logging Console",
+        count: "See any errors or information about the running application",
       },
       {
         image: `${imagesPrefix}/faq.jpg`,
-        name: "FAQ",
-        count: 1,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/blogs.jpg`,
-        name: "Blog Posts",
-        count: 11,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/testimonials.jpg`,
-        name: "Testimonials",
-        count: 11,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/teams.jpg`,
-        name: "Teams",
-        count: 6,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/stats.jpg`,
-        name: "Stats",
-        count: 3,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/call-to-action.jpg`,
-        name: "Call to Actions",
-        count: 8,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/projects.jpg`,
-        name: "Applications",
-        count: 6,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/logo-area.jpg`,
-        name: "Logo Areas",
-        count: 4,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/footers.jpg`,
-        name: "Footers",
-        count: 10,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/general-cards.jpg`,
-        name: "General Cards",
-        count: 9,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/content-sections.jpg`,
-        name: "Content Sections",
-        count: 8,
-        pro: true,
+        name: "Parallel Async",
+        count: "Optimized task execution running tasks in parallel",
       },
     ],
   },
   {
-    title: "Navigation",
-    description: "30+ components that will help go through the pages",
-    items: [
-      {
-        image: `${imagesPrefix}/navbars.jpg`,
-        name: "Navbars",
-        count: 4,
-        route: "/sections/navigation/navbars",
-      },
-      {
-        image: `${imagesPrefix}/nav-tabs.jpg`,
-        name: "Nav Tabs",
-        count: 2,
-        route: "/sections/navigation/nav-tabs",
-      },
-      {
-        image: `${imagesPrefix}/pagination.jpg`,
-        name: "Pagination",
-        count: 3,
-        route: "/sections/navigation/pagination",
-      },
-    ],
-  },
-  {
-    title: "Input Areas",
-    description: "50+ elements that you need for text manipulation and insertion",
+    title: "Canvas Collective",
+    description:
+      "Fun and engaging website to draw small pieces of art and share them with other users.",
     items: [
       {
         image: `${imagesPrefix}/newsletters.jpg`,
-        name: "Newsletters",
-        count: 6,
-        pro: true,
+        name: "Perlin Noise",
+        count: "Perlin noise built inside of the standard HTML SVG element used creatively",
       },
       {
         image: `${imagesPrefix}/contact-sections.jpg`,
-        name: "Contact Sections",
-        count: 8,
-        pro: true,
+        name: "Canvas API",
+        count: "Leverages the HTML Canvas element and API for creating art",
       },
       {
         image: `${imagesPrefix}/forms.jpg`,
-        name: "Forms",
-        count: 3,
-        route: "/sections/input-areas/forms",
+        name: "User Authentication",
+        count: "Utilizes BCrypt library to properly store salted, hased, and encrypted passwords",
       },
       {
         image: `${imagesPrefix}/inputs.jpg`,
-        name: "Inputs",
-        count: 6,
-        route: "/sections/input-areas/inputs",
+        name: "Custom React Hooks",
+        count:
+          "Abstracted canvas functionality into a custom React hook, for cleaner components that facilitate easy integration into new projects",
       },
     ],
   },
   {
-    title: "Attention Catchers",
-    description: "20+ Fully coded components that popup from different places of the screen",
+    title: "Zombie Survival",
+    description: "3D Physics environment that supports multiplayer",
+    items: [
+      {
+        image: `${imagesPrefix}/navbars.jpg`,
+        name: "3D Enviroment",
+        count: "Utilizing ThreeJS to create models",
+      },
+      {
+        image: `${imagesPrefix}/nav-tabs.jpg`,
+        name: "Physics",
+        count: "Intergrated RapierJS to provide an interactive and immersive enviroment",
+      },
+      {
+        image: `${imagesPrefix}/pagination.jpg`,
+        name: "Server Authoritative",
+        count: "Structured using a server to be the main logic handler",
+      },
+      {
+        image: `${imagesPrefix}/pagination.jpg`,
+        name: "Multiplayer",
+        count:
+          "Using Websockets to facilitate real time player interactions with TCP communication",
+      },
+    ],
+  },
+  {
+    title: "Uber Eats Clone",
+    description:
+      "Team project which was a model website of Uber Eats, sign up, create a restaurant, and order food.",
     items: [
       {
         image: `${imagesPrefix}/alerts.jpg`,
-        name: "Alerts",
-        count: 4,
-        route: "/sections/attention-catchers/alerts",
+        name: "Deployment",
+        count: "Levarged Docker to streamline deployment of the application to Render",
       },
       {
         image: `${imagesPrefix}/toasts.jpg`,
-        name: "Notifications",
-        count: 3,
-        pro: true,
+        name: "Collaboration",
+        count:
+          "Working with teams from various areas around the globe at all different times, we were able to plan and effectively work together",
       },
       {
         image: `${imagesPrefix}/popovers.jpg`,
-        name: "Tooltips & Popovers",
-        count: 2,
-        route: "/sections/attention-catchers/tooltips-popovers",
+        name: "Sign In / Sign Up",
+        count: "Simple and easy to use modal to facilitate a user to sign up or sign in",
       },
       {
         image: `${imagesPrefix}/modals.jpg`,
-        name: "Modals",
-        count: 5,
-        route: "/sections/attention-catchers/modals",
+        name: "Flask",
+        count:
+          "Constructed a robust API using Flask and SQLAlchemy, utilizing Python's built-in DB ORM to rapidly learn and develop a functional server",
       },
     ],
   },
   {
-    title: "Elements",
-    description: "80+ carefully crafted small elements that come with multiple colors and shapes",
+    title: "Book & Stay",
+    description: "First full stack project which was modeled after Air BnB",
     items: [
       {
         image: `${imagesPrefix}/buttons.jpg`,
-        name: "Buttons",
-        count: 6,
-        route: "/sections/elements/buttons",
+        name: "Loading States",
+        count: "Using Redux, provided users with a visual indication that the page is loading",
       },
       {
         image: `${imagesPrefix}/avatars.jpg`,
-        name: "Avatars",
-        count: 2,
-        route: "/sections/elements/avatars",
+        name: "Dynamic Seeders",
+        count:
+          "Intergrated the Pexels API to dynamically seed the application with a large amount of diverse data",
       },
       {
         image: `${imagesPrefix}/dropdowns.jpg`,
-        name: "Dropdowns",
-        count: 2,
-        route: "/sections/elements/dropdowns",
+        name: "ExpressJS / Seuelize",
+        count:
+          "Developed a backend API with ExpressJS and Sequelize to manage and persist data effectively in a database",
       },
       {
         image: `${imagesPrefix}/switch.jpg`,
-        name: "Toggles",
-        count: 2,
-        route: "/sections/elements/toggles",
-      },
-      {
-        image: `${imagesPrefix}/social-buttons.jpg`,
-        name: "Social Buttons",
-        count: 2,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/breadcrumbs.jpg`,
-        name: "Breadcrumbs",
-        count: 1,
-        route: "/sections/elements/breadcrumbs",
-      },
-      {
-        image: `${imagesPrefix}/badges.jpg`,
-        name: "Badges",
-        count: 3,
-        route: "/sections/elements/badges",
-      },
-      {
-        image: `${imagesPrefix}/progress.jpg`,
-        name: "Progress Bars",
-        count: 4,
-        route: "/sections/elements/progress-bars",
-      },
-      {
-        image: `${imagesPrefix}/tables.jpg`,
-        name: "Tables",
-        count: 3,
-        pro: true,
-      },
-      {
-        image: `${imagesPrefix}/typography.jpg`,
-        name: "Typography",
-        count: 2,
-        route: "/sections/elements/typography",
+        name: "Pointer Logic",
+        count:
+          "Created a custom cursor hook in React to track cursor movements, simplifying component design and enabling easy reuse in future projects",
       },
     ],
   },

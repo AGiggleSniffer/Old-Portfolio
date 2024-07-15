@@ -25,49 +25,54 @@ import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
-import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
+// import DefaultFooter from "examples/Footers/DefaultFooter";
+import SimpleFooter from "examples/Footers/SimpleFooter";
+// import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 import Counters from "pages/Presentation/sections/Counters";
-import Information from "pages/Presentation/sections/Information";
+// import Information from "pages/Presentation/sections/Information";
 import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
-import Pages from "pages/Presentation/sections/Pages";
-import Testimonials from "pages/Presentation/sections/Testimonials";
-import Download from "pages/Presentation/sections/Download";
+// import Pages from "pages/Presentation/sections/Pages";
+// import Testimonials from "pages/Presentation/sections/Testimonials";
+import Skills from "pages/Presentation/sections/Skills";
 
 // Presentation page components
-import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
+// import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
+// import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/gifs/night_campfire_by_vertibirdo_dbeb4wv.gif";
 
 function Presentation() {
   return (
     <>
       <DefaultNavbar
         routes={routes}
+        brand="Chris Williford"
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "#ContactMe",
+          label: "contact me",
           color: "info",
         }}
+        dark
         sticky
       />
       <MKBox
-        minHeight="75vh"
+        minHeight="100vh"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
           backgroundSize: "cover",
-          backgroundPosition: "top",
+          backgroundPosition: "center",
           display: "grid",
           placeItems: "center",
+          position: "sticky",
+          top: "0",
         }}
       >
         <Container>
@@ -81,9 +86,11 @@ function Presentation() {
                 [breakpoints.down("md")]: {
                   fontSize: size["3xl"],
                 },
+                textShadow:
+                  "2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;",
               })}
             >
-              Material Kit 2 React{" "}
+              Hi! I&apos;m Chris{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -91,9 +98,13 @@ function Presentation() {
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
               mt={1}
+              sx={{
+                textShadow:
+                  "2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;",
+              }}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              A software engineer who likes to make immersive enviroments and enjoys seeing people
+              excited by software
             </MKTypography>
           </Grid>
         </Container>
@@ -102,21 +113,23 @@ function Presentation() {
         sx={{
           p: 2,
           mx: { xs: 2, lg: 3 },
-          mt: -8,
-          mb: 4,
-          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
+          mt: 0,
+          mb: "100vh",
+          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.7),
           backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        <div id="AboutMe" />
         <Counters />
-        <Information />
+        {/* <Information /> */}
+        <div id="Projects" />
         <DesignBlocks />
-        <Pages />
-        <Container sx={{ mt: 6 }}>
+        {/* <Pages /> */}
+        {/* <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
-        </Container>
-        <Container>
+        </Container> */}
+        {/* <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
@@ -159,64 +172,67 @@ function Presentation() {
               />
             </Grid>
           </Grid>
-        </Container>
-        <Testimonials />
-        <Download />
+        </Container> */}
+        {/* <Testimonials /> */}
+        <div id="Skills" />
+        <Skills />
+        <div id="ContactMe" />
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
                 <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
-                  Thank you for your support!
+                  Dont be shy, Say Hi!
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
-                  We deliver the best web products
+                  Send an email to: cwilliford200@gmail.com, or click the gmail badge
                 </MKTypography>
               </Grid>
               <Grid
                 item
                 xs={12}
-                lg={5}
+                lg={7}
                 my={{ xs: 5, lg: "auto" }}
                 mr={{ xs: 0, lg: "auto" }}
                 sx={{ textAlign: { xs: "center", lg: "right" } }}
               >
                 <MKSocialButton
                   component="a"
-                  href="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23mui5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-kit-react"
+                  href="https://www.linkedin.com/in/chris-williford-533442312"
                   target="_blank"
-                  color="twitter"
+                  color="linkedin"
                   sx={{ mr: 1 }}
                 >
-                  <i className="fab fa-twitter" />
-                  &nbsp;Tweet
+                  <i className="fab fa-linkedin" />
+                  &nbsp;Linkup
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-kit-react"
+                  href="mailto:cwilliford200@gmail.com"
                   target="_blank"
-                  color="facebook"
+                  color="youtube"
                   sx={{ mr: 1 }}
                 >
-                  <i className="fab fa-facebook" />
-                  &nbsp;Share
+                  <i className="fab fa-google" />
+                  &nbsp;Email
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.pinterest.com/pin/create/button/?url=https://www.creative-tim.com/product/material-kit-react"
+                  href="https://www.discord.com/users/710714191064989766"
                   target="_blank"
-                  color="pinterest"
+                  color="tumblr"
+                  sx={{ mr: 1 }}
                 >
-                  <i className="fab fa-pinterest" />
-                  &nbsp;Pin it
+                  <i className="fab fa-discord" />
+                  &nbsp;Message
                 </MKSocialButton>
               </Grid>
             </Grid>
           </Container>
         </MKBox>
       </Card>
-      <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
+      <MKBox pt={6} px={1} mt={0}>
+        <SimpleFooter light />
       </MKBox>
     </>
   );

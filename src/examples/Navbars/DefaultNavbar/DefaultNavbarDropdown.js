@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
 import PropTypes from "prop-types";
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // @mui material components
 import Collapse from "@mui/material/Collapse";
@@ -45,10 +45,10 @@ function DefaultNavbarDropdown({
     rel: "noreferrer",
   };
 
-  const routeComponent = {
-    component: Link,
-    to: route,
-  };
+  // const routeComponent = {
+  //   component: <a></a>,
+  //   to: route,
+  // };
 
   return (
     <>
@@ -61,7 +61,7 @@ function DefaultNavbarDropdown({
         color={light ? "white" : "dark"}
         opacity={light ? 1 : 0.6}
         sx={{ cursor: "pointer", userSelect: "none" }}
-        {...(route && routeComponent)}
+        // {...(route && routeComponent)}
         {...(href && linkComponent)}
       >
         <MKTypography
@@ -79,7 +79,13 @@ function DefaultNavbarDropdown({
           color={light ? "white" : "dark"}
           sx={{ fontWeight: "100%", ml: 1, mr: 0.25 }}
         >
-          {name}
+          {route ? (
+            <a style={{ all: "inherit" }} href={route}>
+              {name}
+            </a>
+          ) : (
+            name
+          )}
         </MKTypography>
         <MKTypography variant="body2" color={light ? "white" : "dark"} ml="auto">
           <Icon sx={{ fontWeight: "normal", verticalAlign: "middle" }}>
