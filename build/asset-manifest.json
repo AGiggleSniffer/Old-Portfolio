@@ -1,11 +1,32 @@
 {
   "files": {
-    "main.js": "/static/js/main.7c15d74d.js",
+    "main.js": "/static/js/main.30520bde.js",
+    "static/media/Animation11.gif": "/static/media/Animation11.d972f7dc00303b91762e.gif",
+    "static/media/Animation9.gif": "/static/media/Animation9.6f498ef849e50f1d23ca.gif",
+    "static/media/Animation8.gif": "/static/media/Animation8.36c4af8faf393ad802e3.gif",
+    "static/media/Animation4.gif": "/static/media/Animation4.9de1db43b2fd60f0c406.gif",
+    "static/media/Animation17.gif": "/static/media/Animation17.2fe269d75709aaf3e114.gif",
+    "static/media/Animation1.gif": "/static/media/Animation1.e3596eb905547471f324.gif",
+    "static/media/Animation14.gif": "/static/media/Animation14.c8161ed4ff22732284ad.gif",
+    "static/media/Animation2.gif": "/static/media/Animation2.d9b10a5e41a19db4577a.gif",
+    "static/media/Animation.gif": "/static/media/Animation.e6445ebff516e26382a3.gif",
+    "static/media/Animation19.gif": "/static/media/Animation19.464c4376d43b7fd68205.gif",
+    "static/media/Animation5.gif": "/static/media/Animation5.2f8b8c6d59a1d51622b4.gif",
     "static/media/night_campfire_by_vertibirdo_dbeb4wv.gif": "/static/media/night_campfire_by_vertibirdo_dbeb4wv.2fd74242e15eac890f82.gif",
+    "static/media/me.jpg": "/static/media/me.0c600a2a5af0b185c695.jpg",
+    "static/media/Animation3.gif": "/static/media/Animation3.9a9588cec60c70ea23dc.gif",
+    "static/media/Animation16.gif": "/static/media/Animation16.7f8a779dcb2460fffd09.gif",
+    "static/media/Animation10.gif": "/static/media/Animation10.05cf12a86290f4555390.gif",
+    "static/media/Animation13.gif": "/static/media/Animation13.f944ffa31736840aa7f2.gif",
+    "static/media/Animation18.gif": "/static/media/Animation18.3290f01b03041cecc017.gif",
+    "static/media/Animation6.gif": "/static/media/Animation6.db497087338f0f29bd18.gif",
+    "static/media/Animation15.gif": "/static/media/Animation15.70d93ad075e999832cfc.gif",
+    "static/media/Animation7.gif": "/static/media/Animation7.e4c7c74118a8a25752dc.gif",
+    "static/media/Animation12.gif": "/static/media/Animation12.ca5b2cced21bc67d742b.gif",
     "index.html": "/index.html",
-    "main.7c15d74d.js.map": "/static/js/main.7c15d74d.js.map"
+    "main.30520bde.js.map": "/static/js/main.30520bde.js.map"
   },
   "entrypoints": [
-    "static/js/main.7c15d74d.js"
+    "static/js/main.30520bde.js"
   ]
 }
