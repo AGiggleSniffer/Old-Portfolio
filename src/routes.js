@@ -70,44 +70,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const routes = [
   {
-    name: "about me",
-    icon: <Icon>dashboard</Icon>,
-    route: "#AboutMe",
-    columns: 1,
-    rowsPerColumn: 2,
-    // collapse: [
-    //   {
-    //     name: "landing pages",
-    //     collapse: [
-    //       {
-    //         name: "about us",
-    //         route: "#Projects",
-    //       },
-    //       {
-    //         name: "contact us",
-    //         route: "/pages/landing-pages/contact-us",
-    //         component: <ContactUs />,
-    //       },
-    //       {
-    //         name: "author",
-    //         route: "/pages/landing-pages/author",
-    //         component: <Author />,
-    //       },
-    //     ],
-    //   },
-    //   {
-    //     name: "account",
-    //     collapse: [
-    //       {
-    //         name: "sign in",
-    //         route: "/pages/authentication/sign-in",
-    //         component: <SignIn />,
-    //       },
-    //     ],
-    //   },
-    // ],
-  },
-  {
     name: "projects",
     icon: <Icon>view_day</Icon>,
     route: "#Projects",
@@ -233,6 +195,44 @@ const routes = [
     //         name: "typography",
     //         route: "/sections/elements/typography",
     //         component: <Typography />,
+    //       },
+    //     ],
+    //   },
+    // ],
+  },
+  {
+    name: "about me",
+    icon: <Icon>dashboard</Icon>,
+    route: "#AboutMe",
+    columns: 1,
+    rowsPerColumn: 2,
+    // collapse: [
+    //   {
+    //     name: "landing pages",
+    //     collapse: [
+    //       {
+    //         name: "about us",
+    //         route: "#Projects",
+    //       },
+    //       {
+    //         name: "contact us",
+    //         route: "/pages/landing-pages/contact-us",
+    //         component: <ContactUs />,
+    //       },
+    //       {
+    //         name: "author",
+    //         route: "/pages/landing-pages/author",
+    //         component: <Author />,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     name: "account",
+    //     collapse: [
+    //       {
+    //         name: "sign in",
+    //         route: "/pages/authentication/sign-in",
+    //         component: <SignIn />,
     //       },
     //     ],
     //   },

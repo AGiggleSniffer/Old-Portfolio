@@ -38,7 +38,7 @@ import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import Skills from "pages/Presentation/sections/Skills";
 
 // Presentation page components
-// import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
+import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 
 // Routes
 import routes from "routes";
@@ -120,15 +120,15 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <div id="AboutMe" />
         <Counters />
         {/* <Information /> */}
         <div id="Projects" />
         <DesignBlocks />
         {/* <Pages /> */}
-        {/* <Container sx={{ mt: 6 }}>
+        <div id="AboutMe" />
+        <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
-        </Container> */}
+        </Container>
         {/* <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
