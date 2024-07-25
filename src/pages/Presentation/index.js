@@ -185,7 +185,8 @@ function Presentation() {
                   Dont be shy, Say Hi!
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
-                  Send an email to: cwilliford200@gmail.com, or click the gmail badge
+                  Send an email to: cwilliford200@gmail.com, click the gmail badge, or send me a
+                  text: +1 (916) 412-7799
                 </MKTypography>
               </Grid>
               <Grid
