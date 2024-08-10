@@ -103,7 +103,7 @@ function Presentation() {
                   "2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;",
               }}
             >
-              A software engineer who likes to make immersive enviroments and enjoys seeing people
+              A software engineer who likes to make immersive environments and enjoys seeing people
               excited by software
             </MKTypography>
           </Grid>
@@ -121,14 +121,14 @@ function Presentation() {
         }}
       >
         <Counters />
-        {/* <Information /> */}
-        <div id="Projects" />
-        <DesignBlocks />
-        {/* <Pages /> */}
         <div id="AboutMe" />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
+        {/* <Information /> */}
+        <div id="Projects" />
+        <DesignBlocks />
+        {/* <Pages /> */}
         {/* <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
